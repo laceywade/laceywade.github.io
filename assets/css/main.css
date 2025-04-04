@@ -198,7 +198,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		line-height: 1.5;
+		line-height: 1;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
 	}
@@ -209,7 +209,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 20pt;
+		font-size: 16pt;
 		line-height: .1;
 	}
 
@@ -238,7 +238,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 10em;
+			font-size: 8em;
 		}
 
 	}
@@ -3093,7 +3093,7 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				font-size: 8em;
+				font-size: 6em;
 			}
 
 			#header.alt > * {
@@ -3171,7 +3171,7 @@ input, select, textarea {
 				}
 
 					#header.alt h1 {
-						font-size: 10em;
+						font-size: 8em;
 					}
 
 		}
