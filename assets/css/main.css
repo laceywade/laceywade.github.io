@@ -181,7 +181,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		p.content {
@@ -210,7 +210,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 16pt;
-		line-height: .1;
+		line-height: 1.1;
 	}
 
 	h2 {
@@ -235,11 +235,7 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
-	@media screen and (max-width: 736px) {
-
-		h1 {
-			font-size: 8em;
-		}
+@media screen and (max-width: 1280px) { #header.alt h1 { font-size: 4.5em; } } @media screen and (max-width: 980px) { #header.alt h1 { font-size: 3.5em; } } @media screen and (max-width: 736px) { #header.alt h1 { font-size: 3em; } } @media screen and (max-width: 480px) { #header.alt h1 { font-size: 2.25em; } }
 
 	}
 
@@ -1887,7 +1883,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 1.5em;
 		}
 
 		input[type="submit"].large,
